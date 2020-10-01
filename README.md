@@ -7,3 +7,5 @@ Basically what I did was transform from raw data to tidydata, following these st
 * Appropriately labels the data set with descriptive activity names.
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+I put exactly the comments above in order to make it clearer to understand.
+
