@@ -30,9 +30,10 @@ Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Huma
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 **How run_analysis.R implements the above steps:** 
-* Require reshapre2 and data.table librareis.
-* Load both test and train data
-* Load the features and activity labels.
-* Extract the mean and standard deviation column names and data.
-* Process the data. There are two parts processing test and train data respectively.
-* Merge data set.
+* Require **reshapre2** and **data.table** librareis.
+* Load both test and train data (use **read.table**)
+* Load the features and activity labels (use **read.table**)
+* Merge data set. (use **cbind** and **rbind**)
+* Process the data. Extract the mean and standard deviation column names and data. (use **Tidyverse**)
+* Modify column names (use **gsub**)
+* Create different dataset ( use **write.table**)
